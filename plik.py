@@ -34,6 +34,7 @@ for z in zapytania:
         l = list(indeks[z.strip()].items())
         l0=sorted(l)
         l1=sorted(l0, key = operator.itemgetter(1), reverse = True)
-        print("wynik" [i[0] for i in l1])
+
+        print("wynik dzialania" [i[0] for i in l1])
     except:
         print([]) 
